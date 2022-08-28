@@ -12,10 +12,14 @@ main {
 
 nav {
   background-color: black;
-  position: right;
   display: flex;
   align-items: center;
   padding: 0px 15px 0px 15px;
+}
+
+.navigation-bar{
+  position: fixed;
+  width: 96%;
 }
 
 .nav-item {
@@ -45,7 +49,7 @@ footer{
   text-align: center;
   font-size: small;
   font-weight: 600;
-  position: fixed;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 0;
@@ -53,6 +57,7 @@ footer{
 }
 
 .landing {
+  margin-top: 110px;
   height: 75%;
   display: flex;
   align-items: center;
@@ -89,4 +94,15 @@ footer{
   font-weight: 900;
   border: none;
   padding: 10px 30px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  position: static;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: #f8dc5e;
 }
