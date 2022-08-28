@@ -4,9 +4,10 @@ body,
 main {
   margin: 0;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  background-color: black;
 }
 
 nav {
