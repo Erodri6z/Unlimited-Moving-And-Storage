@@ -35,3 +35,7 @@
 .review-img img{
   height: 100%
 } 
+
+.review-text h2{
+  font-family: 'Acme', sans-serif;
+}
