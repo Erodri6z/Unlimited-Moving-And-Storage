@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
-import './App.css';
+import './styles/app.css';
 
 
 import Nav from './components/nav/nav'

@@ -1,0 +1,42 @@
+html,
+body,
+#root,
+main {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: black;
+  position: right;
+  display: flex;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+}
+
+.nav-item {
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: darkgrey;
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+#nav {
+  margin-left: 30%;
+}
+
+#logo {
+  max-height: 100px;
+}
+
+
+

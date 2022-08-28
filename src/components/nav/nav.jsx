@@ -4,13 +4,16 @@ import Logo from '../../assets/UMSLogo.png'
 const Nav = () => {
   return(
     <nav className="navigation-bar">
-      <NavLink id='logo' to="/">
-        <img src={Logo} alt="logo" />
-        </NavLink>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/About">About</NavLink>
-      <NavLink to="/Services">Services</NavLink>
-      <NavLink to="/Contact">Contact</NavLink>
+      <NavLink to="/">
+        <img id="logo" src={Logo} alt="logo" />
+      </NavLink>
+      <selection id="nav">
+        <NavLink className="nav-item" to="/">Home</NavLink>
+        <NavLink className="nav-item" to="/About">About</NavLink>
+        <NavLink className="nav-item" to="/Services">Services</NavLink>
+        <NavLink className="nav-item" to="/Contact">Contact</NavLink>
+      </selection>
+      
     </nav>
   )
 }
