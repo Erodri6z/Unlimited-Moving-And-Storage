@@ -1,0 +1,23 @@
+.services {
+  color: white;
+  margin-top: 110px;
+}
+.services h1 {
+  text-align: center;
+}
+
+#card-container {
+  display: flex;
+}
+
+.card {
+  display: grid;
+  justify-content: center;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding: 10px;
+}
+
+.card img{
+  width: 300px;
+}
