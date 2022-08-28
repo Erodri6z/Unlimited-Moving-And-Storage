@@ -2,6 +2,9 @@ import '../../styles/services.css'
 import packers from '../../assets/Packers-and-movers-6.webp'
 import movers from '../../assets/movers-carrying-boxes.webp'
 import boxes from '../../assets/boxes.webp'
+import review1 from '../../assets/review1.webp'
+import review2 from '../../assets/review2.webp'
+
 
 const Services = () => {
   return(
@@ -27,6 +30,26 @@ const Services = () => {
           <div className="container">
             <h4>Full Packing Services</h4>
             <p>Unlimited Moving is capable of packing only your furniture and leaving the boxes to you, or we offer a full packing service where our professionals provide and pack every last item!</p>
+          </div>
+        </div>
+      </div>
+      <div id='reviews'>
+        <div className='review' >
+          <div className='review-text'>
+            <h2>name</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque laboriosam error, dolorem reprehenderit ab harum iste deleniti eos. Earum exercitationem nobis est odit officiis asperiores illum quasi iste deserunt numquam!</p>
+          </div>
+          <div className='review-img'>
+            <img src={review1} alt="review-one" />
+          </div>
+        </div>
+        <div className='review' >
+          <div className='review-text'>
+            <h2>name</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque laboriosam error, dolorem reprehenderit ab harum iste deleniti eos. Earum exercitationem nobis est odit officiis asperiores illum quasi iste deserunt numquam!</p>
+          </div>
+          <div className='review-img'>
+            <img src={review2} alt="review-two" />
           </div>
         </div>
       </div>

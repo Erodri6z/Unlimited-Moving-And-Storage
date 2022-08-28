@@ -21,3 +21,17 @@
 .card img{
   width: 300px;
 }
+
+#reviews {
+  display: flex;
+  height: 350px
+}
+
+.review {
+  display: flex;
+  background-color: #f8dc5e;
+}
+
+.review-img img{
+  height: 100%
+} 
