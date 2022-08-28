@@ -38,5 +38,12 @@ nav {
   max-height: 100px;
 }
 
+footer{
+  background-color: black ;
+  color: rgb(234, 234, 106);
+  text-align: center;
+  position: relative;
+  padding: 30px;
+}
 
 
