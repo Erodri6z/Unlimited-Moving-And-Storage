@@ -43,7 +43,30 @@ footer{
   color: rgb(234, 234, 106);
   text-align: center;
   position: relative;
-  padding: 30px;
+  padding: 9px;
 }
 
+.landing {
+  height: 66%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center 20%;
+}
 
+#landing-title{
+  color:white;
+  text-align: center;
+  font-size: xxx-large;
+  text-shadow: 1px 1px 1px rgba(77, 77, 77, 0.537);
+}
+
+#slogan {
+  color: white;
+  text-align: center;
+  font-size: large;
+  text-shadow: 1px 1px 1px (77, 77, 77, 0.537);
+  font-weight: 100 ;
+}
