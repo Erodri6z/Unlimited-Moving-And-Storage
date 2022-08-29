@@ -3,6 +3,7 @@
   background-size: cover;
   height: 90%;
   margin-top: 110px;
+  display: flex;
 }
 
 #about-text {
@@ -10,21 +11,16 @@
   font-size: small;
   padding : 20px;
   margin-left: 10%;
-  margin-right: 40%;
-  padding-right: 21%;
+  padding-right: 21px;
 }
 
 #fragile{
-  margin-left: 40%;
-  margin-top: -30%;
-  height: 90%;
-  width: 60%;
-  overflow: hidden;
+  height: 100%;
+  width: 70%;
 }
 
 #fragile-image{
   padding-right: 20px;
-  width: 80%;
   height: 100%;
-  margin: -75px 0 0 -100px
+
 }

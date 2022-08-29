@@ -10,9 +10,9 @@ const About = () => {
         <p>We provide every service you could possibly need, have the capable tools to move any household item, and we take great care in packaging and safeguarding your most precious belongings.</p>
         <p>We hope you’ll call for a quote and allow us to assist you in your move!</p>
       </div>
-    <div id="fragile">
-      <img src={fragile} id="fragile-image" alt="fragile" />
-    </div>
+      <div id="fragile">
+        <img src={fragile} id="fragile-image" alt="fragile" />
+      </div>
     </div>
     
     </>
