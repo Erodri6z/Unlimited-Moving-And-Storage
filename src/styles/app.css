@@ -20,7 +20,8 @@ nav {
 
 .navigation-bar{
   position: fixed;
-  width: 100%;
+  width: 96.8%;
+  overflow: hidden;
 }
 
 .nav-item {
@@ -68,7 +69,6 @@ footer{
   background-position: center 20%;
 }
 
-
 #landing-title{
   color:white;
   text-align: center;
@@ -98,11 +98,11 @@ footer{
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
-  position: static;
+  width: 5px
 }
 ::-webkit-scrollbar-track {
-  background: black;
+  overflow: overlay;
+  background: rgba(0, 0, 0, 0);
 }
 ::-webkit-scrollbar-thumb {
   background: #f8dc5e;

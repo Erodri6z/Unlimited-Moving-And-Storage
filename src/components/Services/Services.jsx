@@ -40,6 +40,7 @@ const Services = () => {
             <p>What a superb experience! After an unexpected emergency, Unlimited Moving helped my Mom move from Ohio to Illinois completely last minute.
               <br /> <br />
             They were professional, polite, quick, and really did a knock-out job.</p>
+            <hr />
           </div>
           <div className='review-img'>
             <img src={review1} alt="review-one" />
@@ -51,6 +52,7 @@ const Services = () => {
             <p>I highly recommend Unlimited Moving!! Jason did an amazing job coordinating our move. He was so kind and patient with me, even after I had to changed dates...four different times!!
               <br /> <br />
               They all worked really hard and quickly!  Not to mention they have such a GREAT personality! 10 out of 10!</p>
+              <hr />
           </div>
           <div className='review-img'>
             <img src={review2} alt="review-two" />

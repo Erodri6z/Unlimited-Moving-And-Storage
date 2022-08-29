@@ -30,7 +30,7 @@
 
 .review {
   display: flex;
-  background-color: #f8dc5e;
+  background-color: #fbe78d;
   width: 50%;
   color: black
 }
@@ -47,10 +47,17 @@
 }
 
 .review-text {
-  padding:10px;
+  padding: 20px;
   text-align: center;
 }
 
 .review-text p {
   font-family: "Work Sans", sans-serif;
+}
+
+.review-text hr{
+  width: 50%;
+  height: 2.3px;
+  border: none;
+  background-color: black;
 }
