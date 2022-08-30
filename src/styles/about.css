@@ -30,3 +30,36 @@
   height: 100%;
   margin-right: 40px;
 }
+
+
+@media only screen and (max-width: 750px ) {
+  .About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #about-text {
+    margin: auto;
+    padding: 35px;
+  }
+  #fragile {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: 2px solid black;
+  }
+  #fragile-image{
+    width: 100%;
+    margin: auto;
+    height:100%;
+    margin-bottom: -20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  
+}
