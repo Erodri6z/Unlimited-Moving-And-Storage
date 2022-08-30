@@ -4,9 +4,9 @@ import Logo from '../../assets/UMSLogo.png'
 const Nav = () => {
   const navBar = document.getElementById('nav')
   
-  const toggleNav = (e) => {
+  const toggleNav = () => {
     navBar.classList.toggle('active')
-
+    return
   }
   return(
     <nav className="navigation-bar">
@@ -20,10 +20,10 @@ const Nav = () => {
       </button>
       <div id="nav">
         <ul>
-          <li><NavLink className="nav-item" to="/">Home</NavLink></li>
-          <li><NavLink className="nav-item" to="/About">About</NavLink></li>
-          <li><NavLink className="nav-item" to="/Services">Services</NavLink></li>
-          <li><NavLink className="nav-item" to="/Contact">Contact</NavLink></li>
+          <li><NavLink className="nav-item" to="/" onClick={toggleNav}>Home</NavLink></li>
+          <li><NavLink className="nav-item" to="/About" onClick={toggleNav}>About</NavLink></li>
+          <li><NavLink className="nav-item" to="/Services" onClick={toggleNav}>Services</NavLink></li>
+          <li><NavLink className="nav-item" to="/Contact" onClick={toggleNav}>Contact</NavLink></li>
         </ul>
       </div>
     </nav>

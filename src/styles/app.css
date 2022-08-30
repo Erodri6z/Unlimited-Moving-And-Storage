@@ -94,6 +94,7 @@ footer{
   justify-content: center;
   background-size: cover;
   background-position: center 20%;
+  margin-bottom: 20px
 }
 
 #landing-title{
@@ -136,9 +137,13 @@ footer{
 }
 
 @media only screen and (max-width: 750px) {
-  
+
   .toggle-button{
-    display:flex
+    display:flex;
+    background-color: black;
+    border: 0px;
+    width: 40px;
+    right:30px
   }
   #nav{
     display: none;
@@ -152,10 +157,7 @@ footer{
   }
   #nav li {
     text-align: center;
-  }
-  
-  #nav li a {
-    padding: .5rem 1rem;
+    padding: .1rem 1rem 1rem;
   }
   #nav.active {
     display: flex;
@@ -166,5 +168,8 @@ footer{
   .navigation-bar{
     flex-direction: column;
     align-items: flex-start;
+  }
+  .landing {
+    height: 100%;
   }
 }
