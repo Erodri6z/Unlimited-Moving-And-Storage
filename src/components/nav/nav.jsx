@@ -4,9 +4,8 @@ import Logo from '../../assets/UMSLogo.png'
 const Nav = () => {
   const navBar = document.getElementById('nav')
   
-  const toggleNav = () => {
+  const toggleNav = (e) => {
     navBar.classList.toggle('active')
-    return
   }
   return(
     <nav className="navigation-bar">
