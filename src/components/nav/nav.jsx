@@ -2,10 +2,8 @@ import { NavLink } from "react-router-dom"
 import Logo from '../../assets/UMSLogo.png'
 
 const Nav = () => {
-  const navBar =() => {
-    document.getElementById('nav')
-  }
   const toggleNav = () => {
+    const navBar = document.getElementById('nav')
     navBar.classList.toggle('active')
   }
   return(
