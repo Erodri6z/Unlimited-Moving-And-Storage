@@ -1,4 +1,4 @@
-import landing from '../../assets/landing.webp'
+import landing from '../../assets/newlanding.webp'
 
 const Landing = () => {
   return(
