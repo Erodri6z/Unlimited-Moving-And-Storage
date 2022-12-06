@@ -20,7 +20,7 @@ nav {
 
 .navigation-bar{
   position: fixed;
-  width: 96.8%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -142,7 +142,7 @@ footer{
 }
 
 ::-webkit-scrollbar {
-  width: 5px
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
   overflow: overlay;

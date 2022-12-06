@@ -21,6 +21,11 @@
   margin-right: 2%;
   margin-left: 2%;
   padding: 10px;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
 }
 
 .card img{
@@ -36,7 +41,12 @@
   display: flex;
   background-color: #fbe78d;
   width: 50%;
-  color: black
+  color: black;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
 }
 
 .review-img img{
